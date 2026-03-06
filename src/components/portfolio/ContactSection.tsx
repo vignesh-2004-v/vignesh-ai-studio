@@ -17,9 +17,9 @@ const ContactSection = () => (
       <SectionReveal delay={0.15}>
         <div className="flex justify-center gap-6">
           {[
-            { icon: Mail, label: "Email", href: "mailto:hello@vignesh.dev" },
-            { icon: Linkedin, label: "LinkedIn", href: "#" },
-            { icon: Github, label: "GitHub", href: "#" },
+            { icon: Mail, label: "Email", href: "mailto:vigneshvicky0928@gmail.com" },
+            { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/vignesh-v-712571250/" },
+            { icon: Github, label: "GitHub", href: "https://github.com/vignesh-2004-v" },
           ].map(({ icon: Icon, label, href }) => (
             <a
               key={label}
