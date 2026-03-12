@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Send } from "lucide-react";
+import { ArrowDown, Send, FileDown } from "lucide-react";
 import profileImg from "@/assets/profile.jpg";
 
 const HeroSection = () => {
@@ -59,6 +59,13 @@ const HeroSection = () => {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-display font-medium text-sm hover:bg-secondary transition-colors"
               >
                 Get in Touch <Send size={16} />
+              </a>
+              <a
+                href="/Vignesh_Resume.pdf"
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary/30 text-primary font-display font-medium text-sm hover:bg-primary/10 transition-colors"
+              >
+                Resume <FileDown size={16} />
               </a>
             </motion.div>
           </div>
