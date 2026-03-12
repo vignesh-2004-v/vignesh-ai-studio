@@ -42,6 +42,25 @@ const ExperienceSection = () => (
             </p>
           </div>
         </SectionReveal>
+
+        <SectionReveal delay={0.3}>
+          <div className="glass-card rounded-xl p-8">
+            <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+              Financial Markets — 4 Years
+            </h3>
+            <div className="flex flex-wrap gap-3 mb-4">
+              {["Investing", "Trading", "Portfolio Management"].map((t) => (
+                <span key={t} className="text-xs font-body px-3 py-1 rounded-full bg-primary/10 text-primary">
+                  {t}
+                </span>
+              ))}
+            </div>
+            <p className="font-body text-muted-foreground leading-relaxed">
+              4 years of hands-on experience in financial markets including investing, trading, and 
+              portfolio management — enabling a strong blend of technical, business, and financial thinking.
+            </p>
+          </div>
+        </SectionReveal>
       </div>
     </div>
   </section>
