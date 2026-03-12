@@ -46,7 +46,7 @@ const ExperienceSection = () => (
         <SectionReveal delay={0.3}>
           <div className="glass-card rounded-xl p-8">
             <h3 className="font-display text-xl font-semibold text-foreground mb-2">
-              Financial Markets — 4 Years
+              Financial Markets — 6 Years
             </h3>
             <div className="flex flex-wrap gap-3 mb-4">
               {["Investing", "Trading", "Portfolio Management"].map((t) => (
@@ -56,7 +56,7 @@ const ExperienceSection = () => (
               ))}
             </div>
             <p className="font-body text-muted-foreground leading-relaxed">
-              4 years of hands-on experience in financial markets including investing, trading, and 
+              6 years of hands-on experience in financial markets including investing, trading, and 
               portfolio management — enabling a strong blend of technical, business, and financial thinking.
             </p>
           </div>
