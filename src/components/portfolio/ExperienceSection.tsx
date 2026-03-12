@@ -56,7 +56,7 @@ const ExperienceSection = () => (
               ))}
             </div>
             <p className="font-body text-muted-foreground leading-relaxed">
-              4 years of hands-on experience in financial markets including investing, trading, and 
+              6 years of hands-on experience in financial markets including investing, trading, and 
               portfolio management — enabling a strong blend of technical, business, and financial thinking.
             </p>
           </div>
