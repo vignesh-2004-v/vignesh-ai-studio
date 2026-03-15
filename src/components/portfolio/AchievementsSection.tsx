@@ -14,7 +14,7 @@ const achievements = [
     title: "IEEE YESIST12 2025 Grand Finale Finalist – Malaysia",
     detail: "Selected among 1000+ global submissions",
     description:
-      "Selected for the IEEE YESIST12 International Innovation Challenge. Invited to present the project at the IEEE UKM Student Branch, Malaysia on August 23–24, 2025.",
+      "Selected for the IEEE YESIST12 International Innovation Challenge with the Smart Tap Using IoT project. Invited to present at the IEEE UKM Student Branch, Malaysia on August 23–24, 2025.",
   },
 ];
 
